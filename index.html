@@ -5,9 +5,9 @@
       let socket = io();
       let el;
 
-      socket.on('time', (timeString),'text') => {
+      socket.on('time', (timeString)) => {
         el = document.getElementById('server-time');
-        el.innerHTML = 'Server time: ' + timeString + 'This is the message for BENC 3173 Computer Network and System Assignment' ;
+        el.innerHTML = 'Server time: ' + timeString ;
       });
     </script>
   </head>
