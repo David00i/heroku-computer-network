@@ -7,7 +7,7 @@
 
       socket.on
       (
-        'time', (timeString) => 
+        (timeString),'time' => 
       {
         el = document.getElementById('server-time');
         el.innerHTML = 'This is the message for BENC 3173 Computer Network and System Assignment Server time: ' + timeString ;
