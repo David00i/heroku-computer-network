@@ -17,4 +17,4 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => console.log('Client disconnected'));
 });
 
-setInterval(() => io.emit('This is the message for BENC 3173 Computer Network and System Assignment ==> Server time:', new Date().toTimeString()), 1000);
+setInterval(() => io.emit('This is the message for BENC 3173 Computer Network and System Assignment --> Server time:', new Date().toTimeString()), 1000);
